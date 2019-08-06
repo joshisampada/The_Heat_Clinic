@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-HeatClinic" class="navigator-link">
+              <span class="suite-name border-passed">HeatClinic</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-HeatClinic" class="navigator-link ">
+                    <span>C:\Users\Sampada.Joshi\new_eclipse_workspace\HeatClinic\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-HeatClinic" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-HeatClinic" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-HeatClinic" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-HeatClinic" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-HeatClinic" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-HeatClinic" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HeatClinic" class="hide-methods passed suite-HeatClinic"> (hide)</a> <!-- hide-methods passed suite-HeatClinic -->
+                      <a href="#" panel-name="suite-HeatClinic" class="show-methods passed suite-HeatClinic"> (show)</a> <!-- show-methods passed suite-HeatClinic -->
+                    </span>
+                    <div class="method-list-content passed suite-HeatClinic">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HeatClinic" title="com.atmecs.testscripts.CountProdTest" class="method navigator-link" hash-for-method="CountProdTest">CountProdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HeatClinic" title="com.atmecs.testscripts.AddToCart" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HeatClinic" title="com.atmecs.testscripts.CheckoutTest" class="method navigator-link" hash-for-method="checkout">checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HeatClinic" title="com.atmecs.testscripts.SortByLink" class="method navigator-link" hash-for-method="linksort">linksort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HeatClinic" title="com.atmecs.testscripts.SortByName" class="method navigator-link" hash-for-method="sort">sort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HeatClinic" title="com.atmecs.testscripts.SortingTest" class="method navigator-link" hash-for-method="sortData">sortData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HeatClinic -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HeatClinic" class="panel HeatClinic">
+          <div class="suite-HeatClinic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.testscripts.CountProdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountProdTest">
+                  </a> <!-- CountProdTest -->
+                  <span class="method-name">CountProdTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeatClinic-class-passed -->
+          <div class="suite-HeatClinic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.testscripts.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout">
+                  </a> <!-- checkout -->
+                  <span class="method-name">checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeatClinic-class-passed -->
+          <div class="suite-HeatClinic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.testscripts.AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeatClinic-class-passed -->
+          <div class="suite-HeatClinic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.testscripts.SortByName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort">
+                  </a> <!-- sort -->
+                  <span class="method-name">sort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeatClinic-class-passed -->
+          <div class="suite-HeatClinic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.testscripts.SortByLink</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linksort">
+                  </a> <!-- linksort -->
+                  <span class="method-name">linksort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeatClinic-class-passed -->
+          <div class="suite-HeatClinic-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.testscripts.SortingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortData">
+                  </a> <!-- sortData -->
+                  <span class="method-name">sortData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HeatClinic-class-passed -->
+        </div> <!-- panel HeatClinic -->
+        <div panel-name="test-xml-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sampada.Joshi\new_eclipse_workspace\HeatClinic\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;HeatClinic&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;The Heat Clinic Website TestScripts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.atmecs.testscripts.CountProdTest&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.testscripts.SortingTest&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.testscripts.SortByName&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.testscripts.SortByLink&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.testscripts.AddToCart&quot;/&gt;
+      &lt;class name=&quot;com.atmecs.testscripts.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- The Heat Clinic Website TestScripts --&gt;
+&lt;/suite&gt; &lt;!-- HeatClinic --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HeatClinic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">The Heat Clinic Website TestScripts (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HeatClinic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HeatClinic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HeatClinic');
+function tableData_HeatClinic() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkout')
+data.setCell(0, 2, 'com.atmecs.testscripts.CheckoutTest')
+data.setCell(0, 3, 10159);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sort')
+data.setCell(1, 2, 'com.atmecs.testscripts.SortByName')
+data.setCell(1, 3, 4182);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addToCart')
+data.setCell(2, 2, 'com.atmecs.testscripts.AddToCart')
+data.setCell(2, 3, 3656);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sortData')
+data.setCell(3, 2, 'com.atmecs.testscripts.SortingTest')
+data.setCell(3, 3, 3365);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'linksort')
+data.setCell(4, 2, 'com.atmecs.testscripts.SortByLink')
+data.setCell(4, 3, 2552);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CountProdTest')
+data.setCell(5, 2, 'com.atmecs.testscripts.CountProdTest')
+data.setCell(5, 3, 937);
+window.suiteTableData['HeatClinic']= { tableData: data, tableDiv: 'times-div-HeatClinic'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-HeatClinic">
+              </div> <!-- times-div-HeatClinic -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HeatClinic</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HeatClinic" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">5790 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.CountProdTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">10769 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortByLink</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">16110 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortByName</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">21252 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">26560 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.CountProdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CountProdTest</span>
+                <span class="method-start">32570 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortData</span>
+                <span class="method-start">33514 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortByName</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sort</span>
+                <span class="method-start">36880 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortByLink</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">linksort</span>
+                <span class="method-start">41063 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.AddToCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">43615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkout</span>
+                <span class="method-start">47273 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.AddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57433 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58346 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.CountProdTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59210 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortByLink</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59328 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortByName</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60340 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.testscripts.SortingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61321 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HeatClinic">
+<test  name="The Heat Clinic Website TestScripts">
+<classes>
+<class name="com.atmecs.testscripts.CountProdTest"></class>
+<class name="com.atmecs.testscripts.SortingTest"></class>
+<class name="com.atmecs.testscripts.SortByName"></class>
+<class name="com.atmecs.testscripts.SortByLink"></class>
+<class name="com.atmecs.testscripts.AddToCart"></class>
+<class name="com.atmecs.testscripts.CheckoutTest"></class>
+</classes>
+</test> 
+</suite> 
