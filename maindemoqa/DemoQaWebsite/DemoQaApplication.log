@@ -1,0 +1,24 @@
+2019-08-27 20:35:27,789  INFO [main] LogReports:21 - The price of first product is:30.0
+2019-08-27 20:35:30,084  INFO [main] LogReports:21 - The price of product after removal is:15.0
+2019-08-27 20:35:30,140  INFO [main] LogReports:21 - The price of second product is:22.0
+2019-08-27 20:35:30,141  INFO [main] LogReports:21 - The price grandtotal of products before removal is:52.0
+2019-08-27 20:35:30,218  INFO [main] LogReports:21 - The total price of product is:37.0
+2019-08-27 20:35:30,219  INFO [main] LogReports:21 - The price grandtotal of products after removal is:37.0
+2019-08-27 20:35:43,687  INFO [main] LogReports:21 - ToolsQA Demo Site – ToolsQA – Demo E-Commerce Site
+2019-08-27 20:35:43,746  INFO [main] LogReports:21 - ToolsQA Demo Site – ToolsQA – Demo E-Commerce Site
+2019-08-27 20:35:43,747  INFO [main] LogReports:21 - http://shop.demoqa.com/
+2019-08-27 20:36:23,225  INFO [main] LogReports:21 - The price of first product is:30.0
+2019-08-27 20:36:23,276  INFO [main] LogReports:21 - The price of second product is:22.0
+2019-08-27 20:36:23,344  INFO [main] LogReports:21 - The total price of product is:52.0
+2019-08-27 20:36:23,344  INFO [main] LogReports:21 - The grandtotal of both product price is:52.0
+2019-08-27 20:36:23,384  INFO [main] LogReports:21 - The number of products added to cart is:2
+2019-08-27 20:36:23,998 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-08-27 20:36:23,999 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-08-27 20:36:24,001 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-08-27 20:36:24,003 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-08-27 20:36:24,003 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sampada.Joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-08-27 20:36:24,298 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-08-27 20:36:24,299 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-08-27 20:36:24,300 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-08-27 20:36:24,300 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-08-27 20:36:24,301 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sampada.Joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

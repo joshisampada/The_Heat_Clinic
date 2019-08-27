@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoQaWebsite">
+	<test name="The Demo_QA TestScripts">
+		<classes>
+			<class name="com.atmecs.testscripts.AddToCart"></class>
+		</classes>
+	</test>
+</suite> 

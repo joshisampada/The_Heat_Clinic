@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoQaWebsite">
+
+	<listeners>
+		
+		<listener class-name="com.atmecs.reports.ExtendedReport" />
+		<listener class-name="com.atmecs.analyzer.MyTransformer" />
+		
+	</listeners>
+
+
+	<suite-files>
+		<suite-file path="resources/testsuite/addtocart.xml" />
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="resources/testsuite/homepage.xml" />
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="resources/testsuite/searchtest.xml" />
+	</suite-files>
+
+</suite>
+

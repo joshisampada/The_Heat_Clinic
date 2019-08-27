@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoQaWebsite (1)]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.atmecs.reports.ExtendedReport"/>
+    <listener class-name="com.atmecs.analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="The Demo_QA TestScripts(failed)">
+    <classes>
+      <class name="com.atmecs.testscripts.HomePage">
+        <methods>
+          <include name="navigateToUrl"/>
+          <include name="preSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.atmecs.testscripts.HomePage -->
+    </classes>
+  </test> <!-- The Demo_QA TestScripts(failed) -->
+</suite> <!-- Failed suite [DemoQaWebsite (1)] -->
